@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        <div class="color-input">
+            <input type="color" id="color-input">
+            <select name="color-scheme-mode" id="color-scheme-mode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="get-color-btn">Get color scheme</button>
+        </div>
+        <div class="color-palette" id="color-palette">
+        </div>
+        <div id="modal">Color copied to the clipboard!</div>
+        <script src="index.js"></script>
+    </body>
+</html>

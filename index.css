@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[type="color"] {
+    width: 60px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+select {
+    width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.color-input {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid lightgray;
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+.color-palette {
+    height: 75vh;
+    display: flex;
+    cursor: pointer;
+}
+
+.color {
+    width: 25%;
+}
+
+.color-display {
+    height: 90%;
+}
+
+#modal {
+    color: white;
+    background-color: black;
+    position: fixed;
+    /* bottom: 20px; */
+    margin: auto;
+    /* padding: 20px 40px; */
+    border-radius: 35px;
+    /* top: 0;
+    bottom: 0; */
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    height: 50px;
+    width: 300px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    visibility: hidden;
+}
