@@ -6,7 +6,7 @@ html, body {
 }
 
 h1 {
-    margin-top: 30px;
+    margin: 40px 0;
 }
 
 input[type="color"] {
@@ -27,7 +27,7 @@ select {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 button {
